@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Advanced AI-powered writing assistant for blogs, ads, and business content.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ content templates",
+      "SEO optimization",
+      "Grammar & tone correction",
+      "Multi-language support"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "DesignMaster Toolkit",
+    "description": "All-in-one graphic design platform with premium templates and assets.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "5000+ design templates",
+      "Drag-and-drop editor",
+      "Stock images library",
+      "Brand kit management"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "CodeBoost AI",
+    "description": "AI coding assistant to generate, debug, and optimize code efficiently.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Auto code generation",
+      "Bug detection",
+      "Multi-language support",
+      "IDE integrations"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "SEO Rank Tracker Pro",
+    "description": "Track keyword rankings and optimize your website for search engines.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword tracking",
+      "Competitor analysis",
+      "Backlink monitoring",
+      "Detailed reports"
+    ],
+    "icon": "📈"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Elite",
+    "description": "Create professional resumes with ATS-friendly templates and AI suggestions.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "ATS-optimized templates",
+      "AI content suggestions",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler Pro",
+    "description": "Plan, schedule, and analyze your social media posts across platforms.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Multi-platform scheduling",
+      "Analytics dashboard",
+      "Auto-posting",
+      "Content calendar"
+    ],
+    "icon": "📅"
+  }
+]
