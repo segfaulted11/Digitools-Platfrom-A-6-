@@ -1,4 +1,5 @@
 import { Check } from 'lucide-react';
+import toast from "react-hot-toast";
 
 const Products = ({ arrayOfObjects, addToCart, cartItems }) => {
 
@@ -47,12 +48,19 @@ const Products = ({ arrayOfObjects, addToCart, cartItems }) => {
                   }
 
                   {/* BUY BUTTON */}
-                  <button
-                    className={`btn ${isInCart ? "bg-green-500" : "bg-purple-700"} rounded-full text-white`}
-                    onClick={() => addToCart(eachObj)} 
-                  >
-                    {isInCart ? "Added To Cart" : "Buy Now"}
-                  </button>
+            <button
+            className={`btn ${isInCart ? "bg-green-500" : "bg-purple-700"} rounded-full text-white`}
+            onClick={() => {
+                if (!isInCart) {
+                addToCart(eachObj);
+                toast.success("Added to cart 🛒");
+                } else {
+                toast("Already in cart!!");
+                }
+            }}
+            >
+            {isInCart ? "Added To Cart" : "Buy Now"}
+            </button>
 
                 </div>
               </div>

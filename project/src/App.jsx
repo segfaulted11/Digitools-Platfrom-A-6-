@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import { Toaster } from "react-hot-toast";
 import './App.css'
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
@@ -14,6 +15,9 @@ function App() {
 
   return (
     <>
+
+<Toaster position="top-right" />
+
 
 <Navbar/>
 
