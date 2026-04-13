@@ -16,6 +16,7 @@ function App() {
     <>
 
 <Navbar/>
+
 <Banner/>
 
 <Suspense fallback={"data is loading...."}>
