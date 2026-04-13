@@ -48,12 +48,22 @@ const ProductCarts = ({ ProductCartsData }) => {
           Products
         </button>
 
-        <button
-          className={`btn ${selected === "carts" ? "bg-purple-700 text-white" : "btn-soft"} rounded-full`}
-          onClick={() => setSelected("carts")}
-        >
-          Carts
-        </button>
+<button
+  className={`btn ${selected === "carts" ? "bg-purple-700 text-white" : "btn-soft"} rounded-full relative`}
+  onClick={() => setSelected("carts")}
+>
+  Carts
+
+  {/* CART COUNT BADGE */}
+  {
+    cartItems.length > 0 && (
+      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
+        {cartItems.length}
+      </span>
+    )
+  }
+</button>
+
       </div>
 
       {/* CONDITIONAL RENDERING */}
