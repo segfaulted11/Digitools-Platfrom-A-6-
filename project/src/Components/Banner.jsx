@@ -9,17 +9,17 @@ const Banner = () => {
 
             <div className="w-6/10 mt-40 ml-20">
 
-            <div className="badge badge-info py-4">
+            <div className="badge bg-purple-600 text-white border-purple-600 py-4 mb-3">
                   <CircleDotDashed />
                 New : AI-Powered Tools Available
         </div>
-                <h1 className='font-bold text-5xl'>
+                <h1 className='font-bold text-5xl mb-3'>
                     Supercharge Your <br></br>Digital Workflow
                 </h1>
-                <p>Access premium AI tools, design assets, templates, and productivity <br></br>
+                <p className='mb-3'>Access premium AI tools, design assets, templates, and productivity <br></br>
                 software—all in one place. Start creating faster today.</p>
-                <button className='btn btn-primary rounded-full mr-3'>Explore Products</button>
-                <button className='btn btn-outline btn-primary rounded-full'>
+                <button className='btn bg-purple-700 text-white rounded-full mr-3'>Explore Products</button>
+                <button className='btn btn-outline border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white rounded-full'>
                <Play />
                 Watch Demo
                </button>
