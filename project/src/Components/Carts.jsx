@@ -1,6 +1,6 @@
 import { ShoppingCart } from "lucide-react";
 
-const Carts = ({ cartItems, removeFromCart }) => {
+const Carts =  ({ cartItems, removeFromCart, clearCart }) => {
 
   // calculate total price of all items in cart
   const totalPrice = cartItems.reduce((total, item) => {
@@ -54,6 +54,12 @@ const Carts = ({ cartItems, removeFromCart }) => {
               Total: {totalPrice}$
             </div>
 
+            <button 
+            className="btn bg-purple-700 text-white"
+            onClick={clearCart}
+            >
+            Proceed to Checkout
+            </button>
           </div>
         )
       }

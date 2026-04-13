@@ -29,6 +29,12 @@ const ProductCarts = ({ ProductCartsData }) => {
     setCartItems(updatedCart);
   };
 
+  // CLEAR CART FUNCTION (for checkout)
+const clearCart = () => {
+  setCartItems([]);
+};
+
+
   return (
     <div className="container mx-auto">
       <h1 className="text-center font-bold text-5xl mb-3">
@@ -75,8 +81,9 @@ const ProductCarts = ({ ProductCartsData }) => {
             cartItems={cartItems} // used to check if already added
           />
         : <Carts 
-            cartItems={cartItems} 
-            removeFromCart={removeFromCart} 
+  cartItems={cartItems} 
+  removeFromCart={removeFromCart}
+  clearCart={clearCart}
           />
       }
     </div>
