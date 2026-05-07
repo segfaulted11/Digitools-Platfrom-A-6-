@@ -1,5 +1,5 @@
 ## Project Name : Digital Tool's Platform
-## Description : this is a react project.
+## Description : this is a react based front end site where user can buy digital products from.
 ## Tech Stack 
 - HTML
 - CSS
