@@ -17,7 +17,7 @@
 ## Run Locally
 
 ```bash
-git clone your-repo-link
+git clone https://github.com/segfaulted11/Digitools-Platfrom-A-6-.git
 
 cd project-name
 
